@@ -16,6 +16,8 @@
 		E7616E511E1A30EB00BF4E2B /* BackgroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7616E501E1A30EB00BF4E2B /* BackgroundNode.swift */; };
 		E7616E531E1A36AE00BF4E2B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7616E521E1A36AE00BF4E2B /* Constants.swift */; };
 		E7616E551E1A3BC200BF4E2B /* UmbrellaSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7616E541E1A3BC200BF4E2B /* UmbrellaSprite.swift */; };
+		E79798E31E1BD79D00CEFD24 /* CatSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79798E21E1BD79D00CEFD24 /* CatSprite.swift */; };
+		E79798E51E1BDC5400CEFD24 /* FoodSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79798E41E1BDC5400CEFD24 /* FoodSprite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E7616E501E1A30EB00BF4E2B /* BackgroundNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundNode.swift; sourceTree = "<group>"; };
 		E7616E521E1A36AE00BF4E2B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E7616E541E1A3BC200BF4E2B /* UmbrellaSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UmbrellaSprite.swift; sourceTree = "<group>"; };
+		E79798E21E1BD79D00CEFD24 /* CatSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSprite.swift; sourceTree = "<group>"; };
+		E79798E41E1BDC5400CEFD24 /* FoodSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSprite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			children = (
 				E7616E501E1A30EB00BF4E2B /* BackgroundNode.swift */,
 				E7616E541E1A3BC200BF4E2B /* UmbrellaSprite.swift */,
+				E79798E21E1BD79D00CEFD24 /* CatSprite.swift */,
+				E79798E41E1BDC5400CEFD24 /* FoodSprite.swift */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -182,6 +188,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7616E551E1A3BC200BF4E2B /* UmbrellaSprite.swift in Sources */,
+				E79798E31E1BD79D00CEFD24 /* CatSprite.swift in Sources */,
+				E79798E51E1BDC5400CEFD24 /* FoodSprite.swift in Sources */,
 				E7616E531E1A36AE00BF4E2B /* Constants.swift in Sources */,
 				BBA2E4AC1D74A62C00853E63 /* GameScene.swift in Sources */,
 				E7616E511E1A30EB00BF4E2B /* BackgroundNode.swift in Sources */,
