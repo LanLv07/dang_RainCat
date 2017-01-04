@@ -23,6 +23,16 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
   private let backgroundNode = BackgroundNode()
 
   override func sceneDidLoad() {
+      
+    //test font
+    let label = SKLabelNode(fontNamed: "PixelDigivolve")
+    label.text = "Hello World!"
+    label.position = CGPoint(x: size.width / 2, y: size.height / 2)
+    label.zPosition = 1000
+    
+    addChild(label)
+    
+    
     self.lastUpdateTime = 0
     backgroundNode.setup(size: size)
     addChild(backgroundNode)

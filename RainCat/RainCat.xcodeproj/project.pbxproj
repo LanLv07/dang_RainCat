@@ -28,6 +28,7 @@
 		E77AAC6A1E1D21440005A197 /* bensound-jazzyfrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E77AAC661E1D21440005A197 /* bensound-jazzyfrenchy.mp3 */; };
 		E77AAC6B1E1D21440005A197 /* bensound-littleidea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E77AAC671E1D21440005A197 /* bensound-littleidea.mp3 */; };
 		E77AAC6D1E1D21810005A197 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77AAC6C1E1D21810005A197 /* SoundManager.swift */; };
+		E77AAC741E1D321A0005A197 /* Pixel Digivolve.otf in Resources */ = {isa = PBXBuildFile; fileRef = E77AAC731E1D321A0005A197 /* Pixel Digivolve.otf */; };
 		E79798E31E1BD79D00CEFD24 /* CatSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79798E21E1BD79D00CEFD24 /* CatSprite.swift */; };
 		E79798E51E1BDC5400CEFD24 /* FoodSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79798E41E1BDC5400CEFD24 /* FoodSprite.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		E77AAC661E1D21440005A197 /* bensound-jazzyfrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-jazzyfrenchy.mp3"; path = "Music/bensound-jazzyfrenchy.mp3"; sourceTree = "<group>"; };
 		E77AAC671E1D21440005A197 /* bensound-littleidea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-littleidea.mp3"; path = "Music/bensound-littleidea.mp3"; sourceTree = "<group>"; };
 		E77AAC6C1E1D21810005A197 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		E77AAC731E1D321A0005A197 /* Pixel Digivolve.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pixel Digivolve.otf"; path = "Fonts/Pixel Digivolve.otf"; sourceTree = "<group>"; };
 		E79798E21E1BD79D00CEFD24 /* CatSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSprite.swift; sourceTree = "<group>"; };
 		E79798E41E1BDC5400CEFD24 /* FoodSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSprite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 		BB36AD261D75D70000FB54D0 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				E77AAC721E1D32060005A197 /* Fonts */,
 				E77AAC631E1D20C00005A197 /* Music */,
 				E77AAC541E1D1E290005A197 /* SFX */,
 				BBA2E4AF1D74A62C00853E63 /* Main.storyboard */,
@@ -166,6 +169,14 @@
 			name = Music;
 			sourceTree = "<group>";
 		};
+		E77AAC721E1D32060005A197 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E77AAC731E1D321A0005A197 /* Pixel Digivolve.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,6 +247,7 @@
 				BBA2E4B31D74A62C00853E63 /* Assets.xcassets in Resources */,
 				E77AAC5E1E1D1E3C0005A197 /* cat_meow_3.mp3 in Resources */,
 				E77AAC5D1E1D1E3C0005A197 /* cat_meow_2.mp3 in Resources */,
+				E77AAC741E1D321A0005A197 /* Pixel Digivolve.otf in Resources */,
 				BBA2E4B61D74A62C00853E63 /* LaunchScreen.storyboard in Resources */,
 				E77AAC6B1E1D21440005A197 /* bensound-littleidea.mp3 in Resources */,
 				E77AAC621E1D1E3C0005A197 /* cat_meow_7.mp3 in Resources */,
