@@ -23,6 +23,7 @@ class GameViewController: UIViewController {
       view.showsPhysics = true
       view.showsFPS = true
       view.showsNodeCount = true
+      SoundManager.sharedInstance.startPlaying()  //开始播放背景音乐
     }
   }
 
