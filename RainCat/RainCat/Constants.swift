@@ -14,3 +14,5 @@ let RainDropCategory : UInt32 = 0x1 << 2  //十六进制的2
 let FloorCategory    : UInt32 = 0x1 << 3  //十六进制的4
 let CatCategory      : UInt32 = 0x1 << 4
 let FoodCategory     : UInt32 = 0x1 << 5
+
+let ScoreKey = "RAINCAT_HIGHSCORE"

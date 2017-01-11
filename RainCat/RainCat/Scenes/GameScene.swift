@@ -17,6 +17,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
   private let umbrellaNode = UmbrellaSprite.newInstance()
   private var catNode : CatSprite! //!告诉编译器，它并不需要在 init 语句中立即初始化，而且它应该不会是 nil
   private var foodNode : FoodSprite!
+  private let hudNode = HudNode()
     
   let raindropTexture = SKTexture(imageNamed: "rain_drop")
 
@@ -25,13 +26,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
   override func sceneDidLoad() {
       
     //test font
-    let label = SKLabelNode(fontNamed: "PixelDigivolve")
-    label.text = "Hello World!"
-    label.position = CGPoint(x: size.width / 2, y: size.height / 2)
-    label.zPosition = 1000
+//    let label = SKLabelNode(fontNamed: "Pixel Digivolve")
+//    label.text = "Hello World!"
+//    label.position = CGPoint(x: size.width / 2, y: size.height / 2)
+//    label.zPosition = 1000
+//    
+//    addChild(label)
     
-    addChild(label)
-    
+    hudNode.setup(size: size)
+    addChild(hudNode)
     
     self.lastUpdateTime = 0
     backgroundNode.setup(size: size)
@@ -143,6 +146,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         catNode.position = CGPoint(x: umbrellaNode.position.x, y: umbrellaNode.position.y - 30)
         
         addChild(catNode)
+    
+        hudNode.resetPoints()
+    
   }
     
   func spawnFood() {
@@ -205,6 +211,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         switch otherBody.categoryBitMask {
         case RainDropCategory:
             catNode.hitByRain()
+            hudNode.resetPoints()
         case WorldCategory:
             spawnCat()
         default:
@@ -227,7 +234,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         switch otherBody.categoryBitMask {
         case CatCategory:
             //TODO increment points
-            print("fed cat")
+            //print("fed cat")
+            hudNode.addPoint()
             fallthrough
         case WorldCategory:
             foodBody.node?.removeFromParent()

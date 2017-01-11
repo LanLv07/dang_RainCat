@@ -29,6 +29,7 @@
 		E77AAC6B1E1D21440005A197 /* bensound-littleidea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E77AAC671E1D21440005A197 /* bensound-littleidea.mp3 */; };
 		E77AAC6D1E1D21810005A197 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77AAC6C1E1D21810005A197 /* SoundManager.swift */; };
 		E77AAC741E1D321A0005A197 /* Pixel Digivolve.otf in Resources */ = {isa = PBXBuildFile; fileRef = E77AAC731E1D321A0005A197 /* Pixel Digivolve.otf */; };
+		E78657A01E2662DE00C9AAC1 /* HudNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786579F1E2662DE00C9AAC1 /* HudNode.swift */; };
 		E79798E31E1BD79D00CEFD24 /* CatSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79798E21E1BD79D00CEFD24 /* CatSprite.swift */; };
 		E79798E51E1BDC5400CEFD24 /* FoodSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79798E41E1BDC5400CEFD24 /* FoodSprite.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		E77AAC671E1D21440005A197 /* bensound-littleidea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-littleidea.mp3"; path = "Music/bensound-littleidea.mp3"; sourceTree = "<group>"; };
 		E77AAC6C1E1D21810005A197 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		E77AAC731E1D321A0005A197 /* Pixel Digivolve.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pixel Digivolve.otf"; path = "Fonts/Pixel Digivolve.otf"; sourceTree = "<group>"; };
+		E786579F1E2662DE00C9AAC1 /* HudNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudNode.swift; sourceTree = "<group>"; };
 		E79798E21E1BD79D00CEFD24 /* CatSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSprite.swift; sourceTree = "<group>"; };
 		E79798E41E1BDC5400CEFD24 /* FoodSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSprite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +142,7 @@
 				E7616E541E1A3BC200BF4E2B /* UmbrellaSprite.swift */,
 				E79798E21E1BD79D00CEFD24 /* CatSprite.swift */,
 				E79798E41E1BDC5400CEFD24 /* FoodSprite.swift */,
+				E786579F1E2662DE00C9AAC1 /* HudNode.swift */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				E7616E551E1A3BC200BF4E2B /* UmbrellaSprite.swift in Sources */,
 				E79798E31E1BD79D00CEFD24 /* CatSprite.swift in Sources */,
 				E79798E51E1BDC5400CEFD24 /* FoodSprite.swift in Sources */,
+				E78657A01E2662DE00C9AAC1 /* HudNode.swift in Sources */,
 				E7616E531E1A36AE00BF4E2B /* Constants.swift in Sources */,
 				BBA2E4AC1D74A62C00853E63 /* GameScene.swift in Sources */,
 				E7616E511E1A30EB00BF4E2B /* BackgroundNode.swift in Sources */,
