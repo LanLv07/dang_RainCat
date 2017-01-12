@@ -80,6 +80,9 @@ public class CatSprite : SKSpriteNode {
     public func hitByRain() { //小猫被击中，停止移动
         timeSinceLastHit = 0
         removeAction(forKey: walkingActionKey)
+        if SoundManager.sharedInstance.isMuted {
+            return
+        }
         
         //Determine if we should meow or not
         if(currentRainHits < maxRainHits) {
