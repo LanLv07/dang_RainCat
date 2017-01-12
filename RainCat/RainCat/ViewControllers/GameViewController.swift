@@ -20,9 +20,9 @@ class GameViewController: UIViewController {
     if let view = self.view as! SKView? {
       view.presentScene(sceneNode)
       view.ignoresSiblingOrder = true
-      view.showsPhysics = true
-      view.showsFPS = true
-      view.showsNodeCount = true
+//      view.showsPhysics = true
+//      view.showsFPS = true
+//      view.showsNodeCount = true
       SoundManager.sharedInstance.startPlaying()  //开始播放背景音乐
     }
   }
